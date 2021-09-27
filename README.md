@@ -42,14 +42,9 @@ wsl --set-default-version 2
 
 Escolha sua distribuição Linux preferida no aplicativo Windows Store, sugerimos o Ubuntu por ser uma distribuição popular e que já vem com várias ferramentas instaladas por padrão.
 
-![Distribuições Linux no Windows Store](img/distribuicoes_linux.png)
-
 Ao iniciar o Linux instalado, você deverá criar um **nome de usuário** que poderá ser o mesmo da sua máquina e uma **senha**, este será o usuário **root da sua instância WSL**.
 
 Parabéns, seu WSL2 já está funcionando:
-
-![Exemplo de WSL2 funcionando](img/wsl2_funcionando.png)
-
 
 ### (Opcional) Usar Windows Terminal como terminal padrão de desenvolvimento para Windows
 
