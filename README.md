@@ -178,6 +178,27 @@ echo 1 | sudo tee /proc/sys/vm/drop_caches
 ```
 * Acrescente `export DOCKER_BUILDKIT=1` no final do arquivo .profile do seu usuário do Linux para ganhar mais performance ao realizar builds com Docker. Execute o comando `source ~/.profile` para carregar esta variável de ambiente no ambiente do seu WSL 2.
 
+## Comandos úteis
+
+Lista todos os container ativos
+
+```
+docker ps
+```
+
+Lista todos os containers parados
+
+```
+docker ps -a
+```
+
+Remove todos os containers parados 
+
+```
+docker container prume
+```
+
+
 ## Créditos
 
 [https://github.com/codeedu/wsl2-docker-quickstart](https://github.com/codeedu/wsl2-docker-quickstart)
