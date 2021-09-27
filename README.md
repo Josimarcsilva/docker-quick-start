@@ -205,6 +205,11 @@ Remove todos os containers parados
 docker container prune
 ```
 
+Cria uma container nomeado sem travar o terminal
+
+```
+docker run --name my-redis -d redis
+```
 
 ## Créditos
 
