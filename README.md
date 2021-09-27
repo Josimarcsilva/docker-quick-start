@@ -180,6 +180,13 @@ echo 1 | sudo tee /proc/sys/vm/drop_caches
 
 ## Comandos úteis
 
+Inicia o serviço Docker
+
+```
+sudo service docker start
+```
+
+
 Lista todos os container ativos
 
 ```
