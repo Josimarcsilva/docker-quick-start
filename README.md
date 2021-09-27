@@ -186,7 +186,7 @@ Lista todos os container ativos
 docker ps
 ```
 
-Lista todos os containers parados
+Lista todos os containers (ativos ou parados)
 
 ```
 docker ps -a
@@ -195,7 +195,7 @@ docker ps -a
 Remove todos os containers parados 
 
 ```
-docker container prume
+docker container prune
 ```
 
 
